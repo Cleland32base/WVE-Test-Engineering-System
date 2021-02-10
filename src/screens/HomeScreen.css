@@ -1,0 +1,97 @@
+.homeScreen {
+	position: relative;
+	height: 100%;
+	background: url('https://media-exp1.licdn.com/dms/image/C4E1BAQF4DzlbFSQoPw/company-background_10000/0/1569445117760?e=2159024400&v=beta&t=w5-pBEG2RACY_qx0pnONABD-fv_65SNhLxyvb7QRrys')
+		center no-repeat;
+	background-size: cover;
+}
+
+.homeScreen__logo {
+	position: fixed;
+	left: 0;
+	width: 150px;
+	object-fit: contain;
+	padding: 20px;
+}
+
+.homeScreen__gradiant {
+	width: 100%;
+	z-index: 1;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.homeScreen__button--add {
+	position: fixed;
+	left: 25%;
+	top: 20px;
+	padding: 10px 20px;
+	font-size: 1rem;
+	color: #fff;
+	/* background-color: #000000; */
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.homeScreen__button--add:hover {
+	color: black;
+	
+}
+
+.homeScreen__button--contacts {
+	position: fixed;
+	left: 30%;
+	top: 20px;
+	padding: 10px 20px;
+	font-size: 1rem;
+	color: #fff;
+	/* background-color: #000000; */
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.homeScreen__button--contacts:hover {
+	color: black;
+	
+}
+
+.homeScreen__body {
+	position: absolute;
+	top: 18%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	z-index: 1;
+	color: white;
+	padding: 20px;
+	left: 0;
+	right: 0;
+}
+
+.homeScreen__input {
+	margin: 20px;
+	border-radius: 2px;
+}
+
+.homeScreen__input > form > input {
+	padding: 10px;
+	outline-width: 0;
+	height: 30px;
+	width: 30%;
+	border: none;
+	max-width: 500px;
+}
+
+.homeScreen__search {
+	padding: 16px 20px;
+	font-size: 0.876rem;
+	color: white;
+	background-color: #e50914;
+
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+}
